@@ -11,15 +11,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #0f172a;
+  background: #162036;
 }
 
 .container {
   width: 22rem;
   margin-top: 8rem;
-  background-color: white;
+  background: linear-gradient(red,blue);
   border-radius: 10px;
   padding: 30px;
+}
+
+.container h2{
+  color: white;
 }
 
 .inputs {
